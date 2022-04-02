@@ -219,7 +219,7 @@ def cleanup(measurement):
 
 
 def pull(host, user, password, database, table, last):
-    logging.info("fetching...")
+    logging.info("pulling...")
 
     measurements = []
 
@@ -270,7 +270,7 @@ def save_last(last):
 
 
 def push(measurements, endpoint, api_key):
-    logging.info(f"sending {len(measurements)} measurements...")
+    logging.info(f"pushing {len(measurements)} measurements...")
 
     if not measurements:
         return
