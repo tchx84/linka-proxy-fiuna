@@ -13,7 +13,7 @@ from pydantic import BaseModel, Field
 
 logging.basicConfig(level=os.environ.get("LINKA_PROXY_LOG_LEVEL", "INFO").upper())
 
-LAST_PATH = ".last"
+LAST_PATH = os.environ.get("LINKA_PROXY_FIUNA_LAST_PATH", ".last")
 
 SENSORS = {
     "Estacion1": {
