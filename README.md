@@ -24,3 +24,9 @@ export LINKA_PROXY_LOG_LEVEL=DEBUG
 ```
 
 Or put these variables on a `.env` file.
+
+## Run
+
+```
+$ systemd-run --user --on-calendar=*:0/15 --working-directory=/path/to/repo/ ./runner.sh
+```
