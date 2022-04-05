@@ -28,5 +28,5 @@ Or put these variables on a `.env` file.
 ## Run
 
 ```
-$ systemd-run --user --on-calendar=*:0/15 --working-directory=/path/to/repo/ ./runner.sh
+$ systemd-run --user --unit=fiuna-proxy --on-calendar=*:0/15 --working-directory=/path/to/repo/ ./runner.sh
 ```
