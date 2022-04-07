@@ -3,7 +3,7 @@
 ## Install
 
 ```
-$ sudo dnf install mariadb-devel
+$ sudo dnf install virtualenv mariadb-devel
 $ virtualenv env
 $ source env/bin/activate
 $ pip install -r requirements.txt
