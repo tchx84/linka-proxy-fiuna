@@ -2,3 +2,4 @@ mysql_connector_python
 python-dotenv
 requests
 pytz
+pydantic
