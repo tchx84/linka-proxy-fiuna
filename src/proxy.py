@@ -64,12 +64,12 @@ SENSORS = {
     "Estacion9": {
         "source": "fiuna-09",
         "sensor": "OPC_N2",
-        "description": "FIUNA 08, Mbocayaty",
+        "description": "FIUNA 09, Mbocayaty",
     },
     "Estacion10": {
         "source": "fiuna-10",
         "sensor": "OPC_N2",
-        "description": "FIUNA 08, Residenta",
+        "description": "FIUNA 10, Residenta",
     },
     "Estacion11": {
         "source": "fiuna-11",
