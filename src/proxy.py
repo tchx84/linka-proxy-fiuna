@@ -28,6 +28,7 @@ SENSORS = {
         "source": "fiuna-02",
         "sensor": "OPC_N2",
         "description": "FIUNA 02, Fernando",
+        "ignore": True,
     },
     "Estacion3": {
         "source": "fiuna-03",
